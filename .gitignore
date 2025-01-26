@@ -2,3 +2,6 @@
 scrap-venv/
 # browser driver
 *[dD]river.exe
+# captcha images
+*.png
+

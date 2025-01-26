@@ -1,0 +1,10 @@
+Tabla de Título(s) de tercer nivel de grado:
+    Título Institución de Educación Superior     Tipo Reconocido Por Número de Registro Fecha de Registro Área o Campo de Conocimiento Observación
+ODONTOLOGA    UNIVERSIDAD CATOLICA DE CUENCA Nacional                 1029-2018-1970664        2018-06-08   SALUD Y SERVICIOS SOCIALES            
+
+Tabla de Información Personal:
+              0                               1
+Identificación:                      0302413737
+       Nombres: ENCALADA AREVALO SANDRA MARIVEL
+        Género:                        FEMENINO
+  Nacionalidad:                         ECUADOR
