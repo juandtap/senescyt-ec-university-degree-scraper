@@ -1,0 +1,10 @@
+Tabla de Título(s) de tercer nivel de grado:
+    Título Institución de Educación Superior     Tipo Reconocido Por Número de Registro Fecha de Registro         Área o Campo de Conocimiento Observación
+ARQUITECTA             UNIVERSIDAD DE CUENCA Nacional                 1007-2024-2811073        2024-01-19 INGENIERIA, INDUSTRIA Y CONSTRUCCION            
+
+Tabla de Información Personal:
+              0                               1
+Identificación:                      0106049695
+       Nombres: BACUILIMA PAUCAR DIANA CAROLINA
+        Género:                        FEMENINO
+  Nacionalidad:                         ECUADOR
