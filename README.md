@@ -47,9 +47,14 @@ python scraper-ver2.py
 
 ```
 
+**Nota**: Los ids de las tablas cambian periódicamente por lo que hay que revisar el código fuente de la web en caso de presentarse un error, verificar que los IDs (el número al final de j_idtXX) sean similares a los que se tienen en las siguientes líneas de código:
+
+
+```
+tabla1 = wait.until(EC.presence_of_element_located((By.ID, "formPrincipal:j_idt63:0:tablaAplicaciones")))  
+tabla2 = wait.until(EC.presence_of_element_located((By.ID, "formPrincipal:j_idt51")))  
+```
 
 
 
-
-
-
+En caso de no ser los mismos, reemplazarlos con los que aparezcan en el código fuente de la web e intentar nuevamente.

@@ -96,7 +96,7 @@ try:
 
     
     # Espera la tabla de resultados de titulos
-    tabla1 = wait.until(EC.presence_of_element_located((By.ID, "formPrincipal:j_idt54:0:tablaAplicaciones")))  # Reemplaza con el ID correcto
+    tabla1 = wait.until(EC.presence_of_element_located((By.ID, "formPrincipal:j_idt63:0:tablaAplicaciones")))  
     print("Tabla de titulos encontrada con éxito!")
 
     # Extrae encabezados de la tabla de titulos
@@ -116,7 +116,7 @@ try:
             data_tabla1.append(fila_datos)
 
     # Espera la segunda tabla de informacion personal
-    tabla2 = wait.until(EC.presence_of_element_located((By.ID, "formPrincipal:j_idt44")))  
+    tabla2 = wait.until(EC.presence_of_element_located((By.ID, "formPrincipal:j_idt51")))  
     print("tabla de informacion personal encontrada con éxito!")
 
     # Extrae el contenido de la segunda tabla
