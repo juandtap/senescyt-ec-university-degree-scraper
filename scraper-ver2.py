@@ -11,11 +11,13 @@ import os
 import time
 import pandas as pd
 
+NUMERO_INTENTOS = 5
+
 # Configuracion del driver, se usa chrome
 driver_path = os.path.join(os.getcwd(), "chromedriver.exe")  
 service = Service(driver_path)
 options = webdriver.ChromeOptions()
-# options.add_argument("--headless")  # para abrir el navegador
+options.add_argument("--headless")  # para abrir el navegador
 options.add_argument("--disable-gpu")
 options.add_argument("--no-sandbox")
 driver = webdriver.Chrome(service=service, options=options)
@@ -37,7 +39,7 @@ try:
     driver.get(url)
     wait = WebDriverWait(driver, 10)  # Espera hasta 10 segundos para cargar elementos dinámicos
 
-    for attempt in range(5):  # Intentar hasta 5 veces si falla el captcha
+    for attempt in range(NUMERO_INTENTOS):  # Intentar hasta 5 veces si falla el captcha
         print(f"Intento {attempt + 1} para resolver el captcha...")
         # Captura los campos ocultos
         campos_ocultos = {}
